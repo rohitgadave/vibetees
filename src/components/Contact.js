@@ -3,7 +3,7 @@ import "./Contact.css";
 
 function Contact() {
   const [showOptions, setShowOptions] = useState(false);
-  const phoneNumber = "918530972083"; // Store the phone number in a variable
+  const phoneNumber = "8530972083"; // Store the phone number in a variable
 
   const handlePhoneClick = () => {
     setShowOptions(!showOptions); // Toggle the visibility of options
@@ -28,7 +28,7 @@ function Contact() {
         className="phone-number"
         onClick={handlePhoneClick} // Toggle options when phone number is clicked
       >
-        <strong>+{phoneNumber}</strong>
+        <strong>+91{phoneNumber}</strong>
       </p>
 
       {/* Display options to call or message via WhatsApp */}

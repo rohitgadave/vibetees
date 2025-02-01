@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link
 import "./Header.css";
 import logo from "../assets/logo/logo.png";
 
@@ -12,10 +13,10 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link> {/* Use Link instead of a */}
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <Link to="/contact">Contact</Link> {/* Use Link instead of a */}
           </li>
         </ul>
       </nav>

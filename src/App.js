@@ -8,14 +8,16 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/vibetees">
       <div className="App">
         <Header />
 
-        <Routes>
-          <Route path="/" element={<ProductList />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <div className="main-content">
+          <Routes>
+            <Route path="/" element={<ProductList />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
 
         <Footer />
       </div>

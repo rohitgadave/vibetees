@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+
+/* Flexbox Layout */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures full height */
+}
+
+.main-content {
+  flex-grow: 1; /* Makes sure content takes the available space */
+  padding-bottom: 60px; /* Add some bottom padding to avoid content getting too close to the footer */
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+/* Mobile Specific Adjustments */
+@media (max-width: 768px) {
+  .App {
+    flex-direction: column; /* Ensure vertical stacking of elements on small screens */
+  }
+
+  .main-content {
+    padding-bottom: 80px; /* Add extra space for footer on mobile */
+  }
+
+  footer {
+    padding: 15px 0; /* Make footer slightly larger on mobile for better accessibility */
+  }
+}

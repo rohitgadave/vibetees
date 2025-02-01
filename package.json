@@ -10,7 +10,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^4.2.4"
   },
-  "homepage": "https://rohitgadave.github.io/vibetees",
+  "homepage": "https://vibetees.github.io/vibetees",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

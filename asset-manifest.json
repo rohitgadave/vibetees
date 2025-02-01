@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vibetees/static/css/main.a0fb00c6.css",
-    "main.js": "/vibetees/static/js/main.83922778.js",
+    "main.js": "/vibetees/static/js/main.d58619e0.js",
     "static/media/logo.png": "/vibetees/static/media/logo.c97d331f87476139efb7.png",
     "static/media/down_sholder_grey.jpg": "/vibetees/static/media/down_sholder_grey.9cb88ce9df33d373871c.jpg",
     "static/media/down_sholder_white.jpg": "/vibetees/static/media/down_sholder_white.03bde42a7d3c8634a119.jpg",
@@ -9,10 +9,10 @@
     "static/media/down_sholder_red.jpg": "/vibetees/static/media/down_sholder_red.40cda2b4174bb60ef069.jpg",
     "index.html": "/vibetees/index.html",
     "main.a0fb00c6.css.map": "/vibetees/static/css/main.a0fb00c6.css.map",
-    "main.83922778.js.map": "/vibetees/static/js/main.83922778.js.map"
+    "main.d58619e0.js.map": "/vibetees/static/js/main.d58619e0.js.map"
   },
   "entrypoints": [
     "static/css/main.a0fb00c6.css",
-    "static/js/main.83922778.js"
+    "static/js/main.d58619e0.js"
   ]
 }

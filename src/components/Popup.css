@@ -1,0 +1,205 @@
+/* Popup Overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0s 0.4s;
+  backdrop-filter: blur(5px); /* Add a blur effect to the background */
+}
+
+.popup-overlay.active {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.4s ease, visibility 0s 0s;
+}
+
+/* Popup Styling */
+.popup {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 500px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  transform: scale(0.8);
+  animation: popupScale 0.5s ease forwards, slideIn 0.5s ease forwards;
+}
+
+@keyframes popupScale {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.popup h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.popup img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.popup img:hover {
+  transform: scale(1.05);
+  filter: brightness(90%);
+}
+
+.popup p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.phone-number {
+  font-size: 20px;
+  color: #ff5f00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.phone-number:hover {
+  text-decoration: underline;
+}
+
+/* Close Button */
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.popup-close:hover {
+  color: #ff5f00;
+  transform: rotate(45deg); /* Add a rotate effect */
+}
+
+.popup-close:active {
+  transform: scale(0.9);
+}
+
+.popup-phone-options {
+  margin-top: 10px;
+}
+
+.popup-phone-options button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.popup-call-button {
+  background-color: #34b7f1; /* Blue for Call */
+  color: white;
+  border: none;
+}
+
+.popup-whatsapp-button {
+  background-color: #25d366; /* WhatsApp green */
+  color: white;
+  border: none;
+}
+
+.popup-phone-options button:hover {
+  opacity: 0.8;
+}
+
+.popup-call-button:hover {
+  background-color: #007bff; /* Call button hover color */
+}
+
+.popup-whatsapp-button:hover {
+  background-color: #128c7e; /* WhatsApp hover color */
+}
+
+
+.image-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.image-modal {
+  position: relative;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px; /* Distance from the top */
+  right: 10px; /* Distance from the right */
+  background: transparent;
+  border: none;
+  font-size: 30px; /* Size of the close button */
+  color: white; /* Button color */
+  cursor: pointer;
+  z-index: 10; /* Ensure button stays on top */
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh; /* Full viewport height for centering */
+}
+
+
+.full-image {
+  transform: scale(2.9); /*Apply scaling to the image
+  transform-origin: top right; /* Scale from the top-right corner */
+  object-fit: contain;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px; /* Distance from the top of the wrapper */
+  left: 50%; /* Position horizontally at the center */
+  transform: translateX(-50%); /* Offset the element by 50% of its width to truly center it */
+  font-size: 24px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  pointer-events: all; /* Ensure it’s clickable even after scaling */
+  z-index: 10; /* Ensure it stays on top of the image */
+}

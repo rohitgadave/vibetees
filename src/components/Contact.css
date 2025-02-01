@@ -1,0 +1,54 @@
+.contact-page {
+    padding: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .contact-page h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-page p {
+    margin: 10px 0;
+  }
+  
+  .phone-number {
+    font-size: 24px;
+    color: #ff5f00;
+    margin-top: 20px;
+  }
+  
+  .contact-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  
+  .phone-options {
+    margin-top: 10px;
+  }
+  
+  .phone-options button {
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #25d366; /* WhatsApp green */
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .phone-options button:hover {
+    background-color: #128c7e; /* WhatsApp dark green */
+  }
+  
+  .phone-options button:first-child {
+    background-color: #34b7f1; /* Call button color */
+  }
+  
+  .phone-options button:first-child:hover {
+    background-color: #007bff; /* Call button hover color */
+  }
+  

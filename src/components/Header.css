@@ -1,0 +1,53 @@
+/* Importing the Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px; /* Reduced padding */
+  background-color: #333;
+  color: white;
+  font-family: 'Libre Baskerville', serif; /* Apply Poppins font */
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo img {
+  width: 40px; /* Reduced size of logo */
+  height: 40px; /* Reduced size of logo */
+  margin-right: 10px; /* Reduced space between logo and text */
+}
+
+.header h1 {
+  font-size: 24px; /* Reduced font size */
+  font-weight: 600; /* Make the text bold */
+  letter-spacing: 1px; /* Slight spacing for a cleaner look */
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px; /* Reduced space between menu items */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px; /* Reduced font size */
+  font-weight: 500; /* Medium weight for better legibility */
+  transition: color 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+  color: #ff5f00; /* A vibrant color on hover */
+  text-decoration: underline; /* Add underline on hover for emphasis */
+}

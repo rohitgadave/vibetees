@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/vibetees/static/css/main.723d4c6b.css",
+    "main.js": "/vibetees/static/js/main.ec6132eb.js",
+    "static/media/logo.png": "/vibetees/static/media/logo.c97d331f87476139efb7.png",
+    "static/media/down_sholder_grey.jpg": "/vibetees/static/media/down_sholder_grey.9cb88ce9df33d373871c.jpg",
+    "static/media/down_sholder_white.jpg": "/vibetees/static/media/down_sholder_white.03bde42a7d3c8634a119.jpg",
+    "static/media/down_sholder_pink.jpg": "/vibetees/static/media/down_sholder_pink.c46ff8f4eb7a1f192676.jpg",
+    "static/media/down_sholder_red.jpg": "/vibetees/static/media/down_sholder_red.40cda2b4174bb60ef069.jpg",
+    "index.html": "/vibetees/index.html",
+    "main.723d4c6b.css.map": "/vibetees/static/css/main.723d4c6b.css.map",
+    "main.ec6132eb.js.map": "/vibetees/static/js/main.ec6132eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.723d4c6b.css",
+    "static/js/main.ec6132eb.js"
+  ]
+}
